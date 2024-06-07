@@ -1,0 +1,31 @@
+<html>
+	<head>
+		BCD to 7 Segment display:<br>
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<script src="index.js"></script>
+		<label for="decimal">Decimal:</label>
+		<select name="decimal" id="decimal" onchange="handelchange()">
+			<option value='0'>0</option>
+			<option value='1'>1</option>
+			<option value='2'>2</option>
+			<option value='3'>3</option>
+			<option value='4'>4</option>
+			<option value='5'>5</option>
+			<option value='6'>6</option>
+			<option value='7'>7</option>
+			<option value='8'>8</option>
+			<option value='9'>9</option>
+		</select><br><br><br>
+		<section class="seven-segment">
+		    <div class="segment" id="seg_a"></div>
+		    <div class="segment" id="seg_b"></div>
+		    <div class="segment" id="seg_c"></div>
+		    <div class="segment" id="seg_d"></div>
+		    <div class="segment" id="seg_e"></div>
+		    <div class="segment" id="seg_f"></div>
+		    <div class="segment" id="seg_g"></div>
+		  </section>
+	</body>
+</html>
